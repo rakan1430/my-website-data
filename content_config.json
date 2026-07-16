@@ -1,0 +1,26 @@
+{
+  "lastUpdated": "يوليو 11 2026",
+  "ehab": {
+    "totalSections": 215
+  },
+  "monsif": {
+    "totalBanks": 120,
+    "questionsPerBankLabel": "48-50"
+  },
+  "mufakkirSections": {
+    "total": 90,
+    "questionsPerSectionLabel": "11"
+  },
+  "mufakkirRepeated": {
+    "total": 814
+  },
+  "moasserFoundation": {
+    "days": 30,
+    "pagesPerDay": 8,
+    "edition": "الإصدار 2026"
+  },
+  "moasserTraining": {
+    "totalBanks": 120,
+    "questionsPerBankLabel": "43-47"
+  }
+}
