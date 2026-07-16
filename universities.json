@@ -1,0 +1,117 @@
+{
+  "universities": [
+    {
+      "id": "ksu",
+      "name": "جامعة الملك سعود",
+      "location": "الرياض",
+      "requirements": {
+        "high_school": 30,
+        "qat": 30,
+        "shamil": 40,
+        "note": "تقسيم الموزونة للمسار العلمي والصحي: 30% ثانوي، 30% قدرات، 40% تحصيلي"
+      },
+      "tracks": [
+        {
+          "track_name": "المسار الصحي",
+          "min_weighted_score": 88.5,
+          "available_majors": [
+            "medicine",
+            "dentistry",
+            "pharmacy"
+          ]
+        },
+        {
+          "track_name": "المسار الهندسي والحاسبي",
+          "min_weighted_score": 85.0,
+          "available_majors": [
+            "software_engineering",
+            "computer_science",
+            "information_systems"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kau",
+      "name": "جامعة الملك عبدالعزيز",
+      "location": "جدة",
+      "requirements": {
+        "high_school": 40,
+        "qat": 30,
+        "shamil": 30,
+        "note": "تقسيم الموزونة للمسار العلمي: 40% ثانوي، 30% قدرات، 30% تحصيلي"
+      },
+      "tracks": [
+        {
+          "track_name": "المسار العلمي",
+          "min_weighted_score": 83.5,
+          "available_majors": [
+            "computer_science",
+            "artificial_intelligence",
+            "cybersecurity"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kfupm",
+      "name": "جامعة الملك فهد للبترول والمعادن",
+      "location": "الظهران",
+      "requirements": {
+        "high_school": 10,
+        "qat": 40,
+        "shamil": 50,
+        "note": "تعتمد على الموزونة المركبة المركزة (10% ثانوي، 40% قدرات، 50% تحصيلي)"
+      },
+      "tracks": [
+        {
+          "track_name": "القبول الموحد للهندسة والعلوم",
+          "min_weighted_score": 89.0,
+          "available_majors": [
+            "software_engineering",
+            "cybersecurity",
+            "data_science"
+          ]
+        }
+      ]
+    }
+  ],
+  "majors_directory": {
+    "software_engineering": {
+      "name": "هندسة البرمجيات (Software Engineering)",
+      "description": "يركز التخصص على تطبيق المفاهيم الهندسية في تصميم وتطوير وصيانة البرمجيات والأنظمة الكبيرة بجودة عالية تكفل كفاءتها.",
+      "sub_branches": [
+        "مطور تطبيقات وأنظمة سحابية",
+        "مهندس جودة واختبار برمجيات (QA)",
+        "معماري الأنظمة والحلول البرمجية"
+      ]
+    },
+    "computer_science": {
+      "name": "علوم الحاسب (Computer Science)",
+      "description": "يركز على فهم الخوارزميات، لغات البرمجة، نظريات الحوسبة، وكيفية معالجة البيانات وبناء المنطق البرمجي والذكاء الاصطناعي.",
+      "sub_branches": [
+        "الذكاء الاصطناعي وتعلم الآلة",
+        "تطوير الويب والبرمجيات العامة",
+        "هندسة البيانات"
+      ]
+    },
+    "cybersecurity": {
+      "name": "الأمن السيبراني (Cybersecurity)",
+      "description": "تخصص يهتم بحماية الشبكات، الأنظمة، البيانات، والبرامج من الهجمات الرقمية والاختراقات الخبيثة وتأمين البنية التحتية.",
+      "sub_branches": [
+        "مختبر اختراق (Penetration Tester)",
+        "محلل أمن معلومات (SOC Analyst)",
+        "مستشار أمن سيبراني"
+      ]
+    },
+    "medicine": {
+      "name": "الطب البشري والجراحة (Medicine & Surgery)",
+      "description": "دراسة شاملة للأمراض البشريّة، تشخيصها، طرق علاجها، والتدخل الجراحي عند الحاجة لتقديم رعاية صحية متكاملة.",
+      "sub_branches": [
+        "الجراحة العامة",
+        "طب الأطفال",
+        "أمراض الباطنة والقلب"
+      ]
+    }
+  }
+}
