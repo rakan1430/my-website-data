@@ -1,7 +1,7 @@
 {
   "lastUpdated": "يوليو 11 2026",
   "ehab": {
-    "totalSections": 2150
+    "totalSections": 215
   },
   "monsif": {
     "totalBanks": 120,
@@ -9,7 +9,7 @@
   },
   "mufakkirSections": {
     "total": 1000,
-    "questionsPerSectionLabel": "11"
+    "questionsPerSectionLabel": "151"
   },
   "mufakkirRepeated": {
     "total": 814
